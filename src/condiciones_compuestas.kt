@@ -12,7 +12,7 @@ fun main() {
             print(num2)
         else
             print(num3);
-            */
+  */
    /* print("Ingrese día:")
     val dia = readln().toInt()
     print("Ingrese mes:")
@@ -23,15 +23,16 @@ fun main() {
         print("Corresponde al primer trimestre");
 */
 
-    /*print("Ingrese día:")
+   /* print("Ingrese día:")
     val dia = readln().toInt()
     print("Ingrese mes:")
     val mes = readln().toInt()
     print("Ingrese Año:")
     val año = readln().toInt()
     if ( mes == 12 && dia == 25)
-        print("Corresponde a navidad")
-     */
+     print("Corresponde a navidad")
+    */
+
 
     /*print("Ingrese primer numero:")
     val num1 = readln().toInt()
@@ -72,36 +73,37 @@ fun main() {
     if (num1 < 10 || num2 < 10 || num3 < 10)
         print("Alguno es menor a diez")
 */
-    /*print("Ingrese coordenada x:")
+   /* print("Ingrese coordenada x:")
     val x = readln().toInt()
     print("Ingrese coordenada y:")
     val y = readln().toInt()
     if (x > 0 && y > 0)
-        print("Se encuentra en el primer cuadrante")
+        print("Esta en el primer cuadrante")
     else
-        if (x < 0 && y > 0)
-            print("Se encuentra en el segundo cuadrante")
+    if (x < 0 && y > 0)
+        print("Esta en el segundo cuadrante")
+    else
+    if (x < 0 && y < 0)
+        print("Esta en el tercer cuadrante")
+    else
+    if (x > 0 && y < 0)
+        print("Esta en el cuarto cuadrante")
         else
-            if (x < 0 && y < 0)
-                print("Se encuentra en el tercer cuadrante")
-            else
-                if (x > 0 && y < 0)
-                    print("Se encuentra en el cuarto cuadrante")
-                else
-                    print("Se encuentra en un eje")
-    */
+        print("Esta en un eje")
+*/
 
    /* print("Ingrese primer valor:")
     val valor1 = readln().toInt()
     print("Ingrese segundo valor:")
-    val valor2 = readln().toInt()
+    va.,l valor2 = readln().toInt()
     print("Ingrese tercer valor:")
     val valor3 = readln().toInt()
-    val menor = if (valor1 < valor2 && valor1 < valor3) valor1 else if (valor2 < valor3) valor2 else valor3
-    val mayor = if (valor1 > valor2 && valor1 > valor3) valor1 else if (valor2 > valor3) valor2 else valor3
-    print("El mayor de la lista es $mayor y el menor $menor")
+    val menor = if (valor1 < valor2 && valor1 < valor3)
+    else if (valor2 < valor3) valor2 else valor3
+    val mayor = if (valor1 > valor2 && valor1 > valor3)
+    else if (valor2 > valor3) valor2 else valor3
+    print("El mayor de la lista es $mayor y el menor es $menor")
 */
-
 
 
 }

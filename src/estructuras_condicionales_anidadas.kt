@@ -58,7 +58,7 @@ fun main() {
         println("El numero tiene dos digitos")
 */
 
-   /*print("Ingrese cantidad de total de preguntas:")
+  /* print("Ingrese cantidad de total de preguntas:")
     val cantidad1 =  readln().toInt()
     print("Ingrese cantidad de pregunats contestadas correctamente:")
     val cantidad2 = readln().toInt()
@@ -69,9 +69,10 @@ fun main() {
                 print("Nivel medio")
         if(promedio >= 0.50 && promedio< 0.75)
                 print("Nivel regular")
-        if(promedio < 0.50)
+    else
                 print("Fuera de nivel")
 */
+
 
 }
 
