@@ -173,7 +173,7 @@ fun main() {
 //Emplear el operador "%" en la condición de la estructura condicional: if (valor % 2 == 0) //Si el if se verifica verdadero luego es
 //par.
 
-    var x = 1
+    /*var x = 1
     var par = 0
     var impar = 0
     print("Ingrese la cantidad de numeros deseados:")
@@ -185,16 +185,9 @@ fun main() {
         if (valor % 2 == 0)
             par = par + x
         else
-            impar = impar + x 
+            impar = impar + x
     }
     println("La cantidad de numeros pares son: $par")
     println("La cantidad de numeros impar son: $impar")
-
-
-
-
-
-
-
-
+     */
 }
