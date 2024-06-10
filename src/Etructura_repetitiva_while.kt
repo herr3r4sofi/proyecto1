@@ -63,7 +63,9 @@ fun main() {
     }
     println("Tienen nota mayor a 7: $mayor")
     println("Tienen nota menor a 7: $menor")
-*/
+
+    */
+
 
 // Se ingresan un conjunto de n alturas de personas por teclado (n se ingresa
 //por teclado). Mostrar la altura promedio de las personas
@@ -124,7 +126,7 @@ fun main() {
     //- 24, etc
 
 
-    var x = 1
+    /*var x = 1
     var multiplo = 8
     while (x <= 62){
         println(multiplo )
@@ -132,6 +134,66 @@ fun main() {
         x ++
 
         }
+*/
+   // Realizar un programa que permita cargar dos listas de 5 valores cada una.
+    //Informar con un mensaje cual de las dos listas tiene un valor acumulado
+    //mayor (mensajes "Lista 1 mayor", "Lista 2 mayor", "Listas iguales")
+    //Tener en cuenta que puede haber dos o más estructuras repetitivas en un
+    //algoritmo
+
+    /*println("Lista 1 de 5 valores")
+    var suma1 = 0
+    var x1 = 0
+    while (x1 <= 5) {
+        print("Ingrese valores: ")
+        val valor1 = readln().toInt()
+        suma1 = suma1 + valor1
+        x1++
+    }
+    var suma2 = 0
+    var x2 = 1
+    println("Lista 2 de 5 valores")
+    while (x2 <= 5) {
+    print("Ingrese valores:")
+    val valor2 = readln().toInt()
+    suma2 = suma2 + valor2
+        x2++
+        }
+    if (suma1 > suma2)
+        println("La lista 1 es mayor")
+    else
+        if (suma2 > suma1)
+            println("La lista 2 es mayor")
+    else
+       println("Las listas son iguales")
+     */
+
+//Desarrollar un programa que permita cargar n números enteros y luego nos
+//informe cuántos valores fueron pares y cuántos impares.
+//Emplear el operador "%" en la condición de la estructura condicional: if (valor % 2 == 0) //Si el if se verifica verdadero luego es
+//par.
+
+    var x = 1
+    var par = 0
+    var impar = 0
+    print("Ingrese la cantidad de numeros deseados:")
+    val n = readln().toInt()
+    while ( x <= n) {
+        println("Ingrese un numero:")
+        val valor = readln().toInt()
+        x++
+        if (valor % 2 == 0)
+            par = par + x
+        else
+            impar = impar + x 
+    }
+    println("La cantidad de numeros pares son: $par")
+    println("La cantidad de numeros impar son: $impar")
+
+
+
+
+
 
 
 
