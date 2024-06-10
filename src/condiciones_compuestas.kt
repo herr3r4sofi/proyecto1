@@ -102,7 +102,7 @@ fun main() {
     else if (valor2 < valor3) valor2 else valor3
     val mayor = if (valor1 > valor2 && valor1 > valor3)
     else if (valor2 > valor3) valor2 else valor3
-    print("El mayor de la lista es $mayor y el menor es $menor")
+♠    print("El mayor de la lista es $mayor y el menor es $menor")
 */
 
 

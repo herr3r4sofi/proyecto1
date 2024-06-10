@@ -1,5 +1,5 @@
 fun main(){
-    val lado: Int
+    /*val lado: Int
     lado = 50
     var superficie: Int
     superficie = lado * lado
@@ -18,6 +18,8 @@ fun main(){
     promedio = peso1 + peso2 + peso3 / 3
     println("El promedio de $peso1 +  $peso2 + $peso3 es $promedio")
 
+
+     */
 
 
 }

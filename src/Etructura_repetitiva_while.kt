@@ -1,8 +1,10 @@
+import kotlin.system.exitProcess
+
 fun main() {
     /*var x = 1
     while(x <= 100) { // se ponen las llaves porque el ciclo se va a repetir, es mejor usarlos en este tipos de ciclos
         println(x)
-        x = x + 1 // x es 1 y cada vez que se compruebe el while le suma uno al
+        x = x + 1 // x es 1 y cada vez que se compruebe el while le suma uno
     } */
 
     /* println("Ingrese un numero:")
@@ -26,7 +28,7 @@ fun main() {
     val promedio = suma / 10
     println("El promedio es $promedio")
 */
-    print("Cuantas piezas procesarà:")
+    /*print("Cuantas piezas procesarà:")
     val n = readln().toInt()
     var x = 1
     var cantidad = 0
@@ -39,6 +41,98 @@ fun main() {
         x++
     }
     println("La cantidad de piezas aptas son: $cantidad")
-    
 
+     */
+
+// Escribir un programa que solicite ingresar 10 notas de alumnos y nos informe
+//cuántos tienen notas mayores o iguales a 7 y cuántos menores.
+
+   /* var x = 1
+    var suma = 0
+    var mayor = 0
+    var menor = 0
+    while (x <= 10){
+        print("Ingrese la nota $x:")
+        val valor = readln().toInt()
+        suma = suma + valor
+        x++
+
+        if (valor >= 70) mayor++
+        else
+            menor++
     }
+    println("Tienen nota mayor a 7: $mayor")
+    println("Tienen nota menor a 7: $menor")
+*/
+
+// Se ingresan un conjunto de n alturas de personas por teclado (n se ingresa
+//por teclado). Mostrar la altura promedio de las personas
+
+    /*print("Ingrese la cantidad de alturas:")
+    var x = 1
+    var suma = 0.0
+    val n = readln().toInt()
+    while (x <= n) {
+        print("Ingrese la altura:")
+        val valor = readln().toDouble()
+        suma = suma + valor
+        x++
+    }
+    val promedio = suma / n
+    println("El promedio de las alturas es: $promedio")
+     */
+//En una empresa trabajan n empleados cuyos sueldos oscilan entre $100 y
+//$500, realizar un programa que lea los sueldos que cobra cada empleado e
+//informe cuántos empleados cobran entre $100 y $300 y cuántos cobran más
+//de $300. Además el programa deberá informar el importe que gasta la
+//empresa en sueldos al personal.
+
+    /*print("Cantidad de empleados:")
+    val n = readln().toInt()
+    var x = 1
+    var valor1 = 0
+    var valor2 = 0
+    var gasto = 0.0
+    while (x <= n) {
+        print("Ingrese el sueldo del empleado:")
+        val sueldo = readln().toDouble()
+        if (sueldo <= 300)
+            valor1 = valor1 + 1
+        else
+            valor2 = valor2 + 1
+        gasto = gasto + sueldo;
+        x = x + 1
+    }
+    println("Sueldos entre 100 y 300: $valor1")
+    println("Cobran más de 300: $valor2")
+    println("Gastos en sueldos: $gasto")
+     */
+
+   // Realizar un programa que imprima 25 términos de la serie 11 - 22 - 33 - 44,
+   // etc. (No se ingresan valores por teclado)
+
+    /*
+    var x = 1
+    var termino = 11
+    while (x <= 25) {
+        println(termino)
+        termino = termino + 11
+        x++
+    }
+*/
+    //Mostrar los múltiplos de 8 hasta el valor 500. Debe aparecer en pantalla 8 - 16
+    //- 24, etc
+
+
+    var x = 1
+    var multiplo = 8
+    while (x <= 62){
+        println(multiplo )
+    multiplo = multiplo + 8
+        x ++
+
+        }
+
+
+
+}
