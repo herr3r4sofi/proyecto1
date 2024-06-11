@@ -31,7 +31,7 @@ fun main() {
             print("No se ingresaron valores")
 */
     // problema 3
-    var cantidad_inferior = 0
+   /* var cantidad_inferior = 0
     var cantidad_supeior = 0
     var cantidad_adecuada = 0
     do{
@@ -51,7 +51,35 @@ fun main() {
     println("Piezas con un peso inferior a 9.8:$cantidad_adecuada");
     val suma = cantidad_inferior + cantidad_supeior + cantidad_adecuada
     println("Cantidad total de piezas procesadas:$suma")
+*/
 
+    //  Realizar un programa que acumule (sume) valores ingresados por teclado
+    //hasta ingresar el 9999 (no sumar dicho valor, indica que ha finalizado la
+    //carga). Imprimir el valor acumulado e informar si dicho valor es cero, mayor a
+    //cero o menor a cero.
+
+    var suma = 0
+    do {
+        print("Ingrese un valor:")
+        val valor = readln().toInt()
+        if (valor != 9999)
+            suma = suma + valor
+    } while (valor != 9999)
+    println("El valor acumulado es: $suma")
+    if (suma == 0) {
+        println("El valor acumulado es 0")
+    }
+    else {
+        if (suma > 0) {
+            println("El valor acumulado es mayor a 0")
+    }
+    else {
+        if (suma < 0)
+        println("El valor acumulado es menor a 0")
+    }
+
+
+    }
 
 
 
