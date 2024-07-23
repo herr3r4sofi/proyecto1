@@ -5,39 +5,35 @@ package Funciones_parametros
 //proceder a llamar a la primer función definida
 
 
-fun mayormenor(valor1: Int, valor2: Int, valor3: Int) {
+fun mayormenor(val1: Int, val2: Int, val3: Int) {
     when {
-        valor1 < valor2 && valor1 < valor3 -> {
-            if (valor2 < valor3)
-                println("$valor1 $valor2 $valor3 ")
+        val1 < val2 && val1 < val3 -> {
+            if (val2 < val3)
+                println("$val1, $val2, $val3 ")
             else
-                println("$valor1 $valor3 $valor2 ")
+                println("$val1, $val3, $val2 ")
         }
-        valor2 < valor3 -> {
-            if (valor1 < valor3)
-                println("$valor2 $valor1 $valor3")
+        val2 < val3 -> {
+            if (val1 < val3)
+                println("$val2, $val1, $val3")
             else
-                println("$valor2 $valor3 $valor1")
+                println("$val2 $val3 $val1")
         }
         else -> {
-            if (valor1 < valor2)
-                println("$valor3 $valor1 $valor2")
+            if (val1 < val2)
+                println("$val3, $val1, $val2")
             else
-                println("$valor3 $valor2 $valor1")
+                println("$val3, $val2, $val1")
         }
     }
 }
 
 fun main() {
     print("Ingrese primer valor:")
-    val valor1 = readln().toInt()
+    val val1 = readln().toInt()
     print("Ingrese segunda valor:")
-    val valor2 = readln().toInt()
+    val val2 = readln().toInt()
     print("Ingrese tercer valor:")
-    val valor3 = readln().toInt()
-    mayormenor(valor1, valor2, valor3)
+    val val3 = readln().toInt()
+    mayormenor(val1, val2, val3)
 }
-
-
-
-
