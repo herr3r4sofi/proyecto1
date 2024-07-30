@@ -29,5 +29,5 @@ fun main() {
     }
     println("Valor acumulado de todos los elementos: $sumaTotal")
     println("Valor acumulado de los elementos mayores a 36: $sumamayores36")
-    println("Cantidad de valores mayores a 50: $cantidadmayores50")
+    println("Valores mayores a 50: $cantidadmayores50")
 }
