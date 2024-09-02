@@ -11,7 +11,7 @@ class Dado{
         separador()
     }
     private fun separador()=
-        println("**************************************")
+        println("*************************************")
 }
 fun main(){
     val dado1=Dado()
