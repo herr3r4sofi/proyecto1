@@ -16,7 +16,7 @@ class Persona {
                 field = 0
         }
 }
-fun main() {
+fun main() {//
     val persona1 = Persona()
     persona1.nombre = "juan"
     persona1.edad = 23
